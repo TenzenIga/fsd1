@@ -1,0 +1,16 @@
+mixin listItem(subtitle, value)
+  li.contact-list__item
+    span.contact-list__subtitle=subtitle
+    span.contact-list__value=value
+
+
+mixin skillsItem(name, circlesNumber)
+  li.skills-list__item
+    span.skills-list__title=name
+    - for(var x =0; x< 12; x++)
+      if x < circlesNumber
+        span.skills-list__circle--filled
+      else
+        span.skills-list__circle
+    
+  

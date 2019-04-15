@@ -1,0 +1,30 @@
+include ../mixins
+
+aside.aside
+  .user
+    .user__circle
+    span.user__name Name Here
+    span.user__surname Surname
+    span.user__description Grapghic Designer
+  .aside-item
+    .aside-item__icon
+    .aside-item__title Profile
+    .aside-item__text Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. 
+  .aside-item
+    .aside-item__icon
+      img(src="../../static/img/computer.png")
+    .aside-item__title Contact
+    ul.aside-item__list.contact-list
+      +listItem('Address', 'Main Street, City')
+      +listItem('E-MAIL', 'contact@domain.com')
+      +listItem('Phone', '555-555-555')
+      +listItem('Website', 'www.yourweb.com')
+  .aside-item
+    .aside-item__icon
+      img(src="../../static/img/computer.png")
+    .aside-item__title Skills
+    ul.aside-item__list.skills-list
+      +skillsItem('creative', 9)
+      +skillsItem('teamwork',11)
+      +skillsItem('innovate',6)
+      +skillsItem('communication',12)

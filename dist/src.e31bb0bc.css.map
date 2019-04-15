@@ -1,0 +1,1 @@
+{"version":3,"sources":["static\\scss\\main.scss"],"names":[],"mappings":"AAEA;EACE,YAHM","file":"src.e31bb0bc.css","sourceRoot":"..\\src","sourcesContent":["$color: red;\r\n\r\nbody{\r\n  background: $color;\r\n}\r\n"]}
