@@ -1,0 +1,34 @@
+.aside{
+  width: 40%;
+  .user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    &__img{
+      width: 336px;
+      height: 336px;
+      border:2px solid $circle-color;
+      background: #fff;
+      border-radius: 50%;
+      padding: 23px;
+      margin-bottom: 32px;
+      margin-top: 49px;
+      .img{
+        background: $circle-color;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+    }
+    &__name{
+      font-size: 38px;
+    }
+    &__surname{
+      font-size: 38px;
+    }
+    &__description{
+      font-size: 19px;
+    }
+  }
+}

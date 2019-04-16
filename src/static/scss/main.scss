@@ -1,5 +1,11 @@
-$color: red;
-
+@import 'vars';
+@import 'modules/aside/aside';
 body{
-  background: $color;
+  box-sizing: border-box;
+  margin: 0;
+}
+.wrapper{
+  
+  max-width:1920px;
+  min-width: 320px;
 }
