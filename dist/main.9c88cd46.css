@@ -43,4 +43,14 @@ body {
   min-width: 320px;
 }
 
+.progress-bar__wrapper {
+  width: 100px;
+  height: 20px;
+}
+.progress-bar__wrapper .progress-bar__value {
+  height: 20px;
+  background: red;
+  color: red;
+}
+
 /*# sourceMappingURL=/main.9c88cd46.css.map */

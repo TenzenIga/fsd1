@@ -1,3 +1,8 @@
+mixin itemHeader(img, title)
+  .page-item__header.header
+    img(src=img class='header__img')
+  span.header__title=title
+
 mixin listItem(subtitle, value)
   li.contact-list__item
     span.contact-list__subtitle=subtitle
@@ -14,3 +19,8 @@ mixin skillsItem(name, circlesNumber)
         span.skills-list__circle
     
   
+mixin progressBar(name, value)
+  .progress-bar
+    .progress-bar__name=name
+    .progress-bar__wrapper
+      .progress-bar__value(style="width:" + value+ "px")
