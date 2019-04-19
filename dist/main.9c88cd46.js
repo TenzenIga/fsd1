@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\fonts\\MyriadPro-LightSemiExtIt.eot":[["MyriadPro-LightSemiExtIt.6271b9b4.eot","../../static/fonts/MyriadPro-LightSemiExtIt.eot"],"../../static/fonts/MyriadPro-LightSemiExtIt.eot"],"./..\\fonts\\MyriadPro-LightSemiExtIt.woff":[["MyriadPro-LightSemiExtIt.9402e43c.woff","../../static/fonts/MyriadPro-LightSemiExtIt.woff"],"../../static/fonts/MyriadPro-LightSemiExtIt.woff"],"./..\\fonts\\MyriadPro-LightSemiExtIt.ttf":[["MyriadPro-LightSemiExtIt.fa3b90f2.ttf","../../static/fonts/MyriadPro-LightSemiExtIt.ttf"],"../../static/fonts/MyriadPro-LightSemiExtIt.ttf"],"./..\\fonts\\MyriadPro-LightSemiExtIt.svg":[["MyriadPro-LightSemiExtIt.75869a83.svg","../../static/fonts/MyriadPro-LightSemiExtIt.svg"],"../../static/fonts/MyriadPro-LightSemiExtIt.svg"],"./..\\fonts\\MyriadPro-Regular.eot":[["MyriadPro-Regular.6fce3f1b.eot","../../static/fonts/MyriadPro-Regular.eot"],"../../static/fonts/MyriadPro-Regular.eot"],"./..\\fonts\\MyriadPro-Regular.woff":[["MyriadPro-Regular.d395dd25.woff","../../static/fonts/MyriadPro-Regular.woff"],"../../static/fonts/MyriadPro-Regular.woff"],"./..\\fonts\\MyriadPro-Regular.ttf":[["MyriadPro-Regular.af02eeb1.ttf","../../static/fonts/MyriadPro-Regular.ttf"],"../../static/fonts/MyriadPro-Regular.ttf"],"./..\\fonts\\MyriadPro-Regular.svg":[["MyriadPro-Regular.c86494e8.svg","../../static/fonts/MyriadPro-Regular.svg"],"../../static/fonts/MyriadPro-Regular.svg"],"./..\\fonts\\MyriadPro-Bold.eot":[["MyriadPro-Bold.6bfca38e.eot","../../static/fonts/MyriadPro-Bold.eot"],"../../static/fonts/MyriadPro-Bold.eot"],"./..\\fonts\\MyriadPro-Bold.woff":[["MyriadPro-Bold.f06ec3b9.woff","../../static/fonts/MyriadPro-Bold.woff"],"../../static/fonts/MyriadPro-Bold.woff"],"./..\\fonts\\MyriadPro-Bold.ttf":[["MyriadPro-Bold.dd6b9171.ttf","../../static/fonts/MyriadPro-Bold.ttf"],"../../static/fonts/MyriadPro-Bold.ttf"],"./..\\fonts\\MyriadPro-Bold.svg":[["MyriadPro-Bold.262c3a35.svg","../../static/fonts/MyriadPro-Bold.svg"],"../../static/fonts/MyriadPro-Bold.svg"],"_css_loader":"../../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55453" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55592" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

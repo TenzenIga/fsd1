@@ -1,19 +1,24 @@
 .aside{
   width: 40%;
+  font-family: 'Conv_MyriadPro-Regular', sans-serif;
+
   .user{
+    font-size: 3.9em;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     text-transform: uppercase;
+    line-height: 1.3;
     &__img{
-      width: 336px;
-      height: 336px;
+      margin-left: 205px;
+      width: 257px;
+      height: 257px;
       border:2px solid $circle-color;
       background: #fff;
       border-radius: 50%;
-      padding: 23px;
+      padding: 18px;
       margin-bottom: 32px;
-      margin-top: 49px;
+      margin-top: 95px;
       .img{
         background: $circle-color;
         width: 100%;
@@ -22,13 +27,17 @@
       }
     }
     &__name{
-      font-size: 38px;
+      word-spacing: -0.1rem;
+      margin-left: 90px;
+      font-weight: 200;
     }
     &__surname{
-      font-size: 38px;
+      margin-left: 90px;
+      font-size: 4.5rem;
+      font-weight: bold;
     }
     &__description{
-      font-size: 19px;
+
     }
   }
 }
