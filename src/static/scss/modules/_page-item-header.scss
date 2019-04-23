@@ -1,0 +1,32 @@
+.header{
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+
+      &__img{
+        width: 95px;
+        height: 95px;
+
+      }
+      &__title{
+        padding: 0 5px;
+        font-family: 'Conv_MyriadPro-Bold';
+        color: $main-color;
+        text-transform: uppercase;
+        font-size:3.3rem;
+        font-weight: 600;
+        position: relative;
+        &:after{
+          left: 100%;
+          top: 45%;
+          margin-left: 5px;
+          position: absolute;
+          content: '';
+          color: $main-color;
+          width: 1000%;
+          height: 5px;
+          background: $main-color;
+        }
+      }
+
+    }
