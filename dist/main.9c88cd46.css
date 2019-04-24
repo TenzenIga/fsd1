@@ -32,15 +32,15 @@
   line-height: 1.1;
 }
 .user__img {
-  margin-left: 205px;
+  margin-left: 12.9rem;
   width: 257px;
   height: 257px;
   border: 2px solid #3d6cb0;
   background: #fff;
   border-radius: 50%;
   padding: 18px;
-  margin-bottom: 35px;
-  margin-top: 95px;
+  margin-bottom: 2rem;
+  margin-top: 6rem;
 }
 .user__img .img {
   background: #3d6cb0;
@@ -49,23 +49,61 @@
   border-radius: 50%;
 }
 .user__name {
-  word-spacing: 0.9rem;
-  margin-left: 75px;
+  font-size: 4.5rem;
+  margin-left: 6.7rem;
   font-weight: lighter;
 }
 .user__surname {
+  font-family: "Conv_MyriadPro-Bold";
   font-weight: 600;
-  font-size: 5rem;
-  line-height: 0.8;
-  letter-spacing: 3.5px;
-  margin-left: 75px;
+  font-size: 4.5rem;
+  line-height: 0.7;
+  letter-spacing: 5px;
+  margin-left: 7rem;
 }
 .user__description {
-  font-size: 2rem;
-  line-height: 1.6;
-  margin-left: 70px;
-  margin-top: 10px;
+  font-family: "Conv_MyriadPro-Bold";
+  font-size: 1.9rem;
+  margin-left: 7rem;
+  margin-top: 1.7rem;
   font-weight: 600;
+}
+
+.profile {
+  margin-top: 5.9rem;
+  margin-left: 5rem;
+}
+.profile .page-item__text {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.profile .page-item__text-bold {
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+.contact {
+  margin-top: 3.5rem;
+}
+.contact .contact-list {
+  list-style-type: none;
+  margin: 0;
+}
+.contact .contact-list__item {
+  margin-top: 2.5rem;
+  position: relative;
+}
+.contact .contact-list__subtitle {
+  text-transform: uppercase;
+  font-family: "Conv_MyriadPro-Bold";
+  color: #3d6cb0;
+  font-size: 1.6rem;
+}
+.contact .contact-list__value {
+  letter-spacing: 1px;
+  position: absolute;
+  left: 10.3rem;
+  font-size: 1.5rem;
 }
 
 .header {
@@ -78,7 +116,7 @@
   height: 95px;
 }
 .header__title {
-  padding: 0 5px;
+  padding: 0 10px;
   font-family: "Conv_MyriadPro-Bold";
   color: #3d6cb0;
   text-transform: uppercase;
@@ -89,7 +127,6 @@
 .header__title:after {
   left: 100%;
   top: 45%;
-  margin-left: 5px;
   position: absolute;
   content: "";
   color: #3d6cb0;
@@ -102,16 +139,17 @@
   flex-basis: 60%;
   font-family: "Conv_MyriadPro-Regular", sans-serif;
 }
-.aside .page-item__text {
-  margin-left: 80px;
-  font-size: 1.2rem;
-}
-.aside .page-item__text-bold {
-  font-weight: bold;
+.aside .page-item {
+  margin-left: 5rem;
 }
 
 body {
   box-sizing: border-box;
+  margin: 0;
+}
+
+ul, p, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
   margin: 0;
 }
 

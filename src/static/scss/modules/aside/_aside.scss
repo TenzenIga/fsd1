@@ -1,15 +1,10 @@
 @import "user";
+@import "profile";
 @import "../page-item-header";
 .aside{
   flex-basis: 60%;
   font-family: 'Conv_MyriadPro-Regular', sans-serif;
   .page-item{
-    &__text{
-      margin-left: 80px;
-      font-size: 1.2rem;
-      &-bold{
-        font-weight: bold;
-      }
-    }
+    margin-left: 5rem;
   }
 }
